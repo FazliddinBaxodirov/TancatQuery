@@ -45,11 +45,11 @@ export default function Home() {
                 key={index}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell className='capitalize' component="th" scope="row">
                   {item.name}
                 </TableCell>
                 <TableCell className='capitalize' >{item.lastname}</TableCell>
-                <TableCell className='capitalize'>{item.age}</TableCell>
+                <TableCell >{item.age}</TableCell>
                 <TableCell className='space-x-1 w-[200px]'>
                   <Button onClick={() => delUser(item.id)} size='small' color='error' variant='outlined'>Delete</Button>
                   <Button onClick={() => navigate('/add', { state: item })}  size='small' color='success' variant='outlined'>Update</Button>

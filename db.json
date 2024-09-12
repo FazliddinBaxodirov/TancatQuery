@@ -5,6 +5,12 @@
       "lastname": "gulomov",
       "age": "14",
       "id": "bc76"
+    },
+    {
+      "id": "f052",
+      "name": "salim",
+      "lastname": "gulomov",
+      "age": "12"
     }
   ]
 }
